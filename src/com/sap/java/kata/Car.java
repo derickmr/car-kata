@@ -25,7 +25,7 @@ public class Car {
 
     private void verifyDoors(int length, int doors) throws IndexOutOfBoundsException {
 
-        if (doors<1)
+        if (doors < 1)
             throw new IndexOutOfBoundsException();
 
         if ((length - 3 - doors * 2) < 0)
